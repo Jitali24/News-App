@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+.footer-container {
+  display: flex;
+  font-size: 0.7rem;
+  background: midnightblue;
+  background: linear-gradient(
+    to left,
+    #000046,
+    #000046,
+    #1cb5e0,
+    #000046,
+    #000046,
+    #000046,
+    #1cb5e0,
+    #000046,
+    #000046
+  );
+  background: transparent;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: inherit;
+  bottom: 0;
+}
+
+.footer-container h2 {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #0055fb;
+  color: #ffffff;
+}
+
+.footer-container a {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #0ccac4;
+  color: #0055fb;
+}
+
+.footer-container a:hover {
+  color: #5bbd22c5;
+  color: palevioletred;
+}
